@@ -15,10 +15,11 @@ def solve():
         n = int(input("Enter the number of elements: "))
         arr = []
 
-        # Taking array elements one by one
+        # Taking array elements as whitespace-separated integers
         print(f"Enter {n} elements:")
-        for _ in range(n):
-            arr.append(int(input()))
+        while len(arr) < n:
+            arr.extend(map(int, input().split()))
+        arr = arr[:n]
 
         # count keeps track of the position where the next non-zero element goes
         count = 0
