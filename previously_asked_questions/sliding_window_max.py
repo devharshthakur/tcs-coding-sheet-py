@@ -10,10 +10,11 @@ Output: [3, 3, 5, 5, 6, 7]
 
 
 def solve():
+    # Take user inputs
     arr = list(map(int, input("Enter the elements: ").split()))
     k = int(input("Enter the sliding window size: "))
     n = len(arr)
-
+    # Create a result array
     result = [0] * (n - k + 1)
 
     for i in range(n - k + 1):
