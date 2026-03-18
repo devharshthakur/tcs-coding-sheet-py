@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+uv format
+git add .
+
+read -r -p "Commit title: " title
+read -r -p "Commit description: " description
+
+printf '\nCommit preview:\n'
+printf 'Title: %s\n' "$title"
+printf 'Description: %s\n' "$description"
+read -r -p "Commit these changes? [y/N] " confirm
+
+case "$confirm" in
+  y|Y|yes|YES)
+    git commit -m "$title" -m "$description"
+    ;;
+  *)
+    printf 'Aborted.\n'
+    exit 1
+    ;;
+esac
