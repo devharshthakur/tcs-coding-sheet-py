@@ -20,13 +20,15 @@ community include:
 - Demonstrating empathy and kindness toward other people
 - Being respectful of differing opinions, viewpoints, and experiences
 - Giving and gracefully accepting constructive feedback
-- Accepting responsibility and apologizing to those affected by our mistakes
+- Accepting responsibility and apologizing to those affected by our mistakes,
+  and learning from the experience
 - Focusing on what is best not just for us as individuals, but for the overall
   community
 
 Examples of unacceptable behavior include:
 
 - The use of sexualized language or imagery, and sexual attention or advances
+  of any kind
 - Trolling, insulting or derogatory comments, and personal or political attacks
 - Public or private harassment
 - Publishing others' private information, such as a physical or email address,
@@ -57,8 +59,9 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement. All complaints
-will be reviewed and investigated promptly and fairly.
+reported to the community leaders responsible for enforcement at
+[INSERT CONTACT METHOD]. All complaints will be reviewed and investigated
+promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the
 reporter of any incident.
@@ -103,14 +106,16 @@ Violating these terms may lead to a permanent ban.
 ### 4. Permanent Ban
 
 **Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment, or abuse of
-an individual.
+standards, including sustained inappropriate behavior, harassment of an
+individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within the
 community.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 3.0.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.
+contributor-covenant.org), version 2.1.
 
-Community impact guidelines were inspired by the [Mozilla code of conduct enforcement ladder](https://github.com/mozilla/diversity).
+Community impact guidelines were inspired by the [Mozilla code of conduct
+enforcement ladder](https://github.com/mozilla/diversity).
