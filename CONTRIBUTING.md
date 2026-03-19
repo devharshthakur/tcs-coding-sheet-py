@@ -10,20 +10,25 @@ Thank you for contributing to this project. Please follow below given guidelines
 
 > Note: Before opening a new issue, please check if a similar one already exists.
 
-3.  This project follows a simple straight forward pr based workflow.
+3.  Creating an issue first is mandatory for new work. Please follow the [Issue Guidelines](#issue-guidelines) before starting any implementation.
+
+4.  If the issue is already assigned to you, you can begin the workflow below. For big or unclear issues, ask first before doing anything else so we can confirm the approach. Refer 1 and 2 above
+
+5.  This project follows a simple straight forward pr based workflow.
 
 ## PR workflow
 
-1. **Fork the project** to your own GitHub account.
-2. **Create a branch** for your changes. Branch names should follow [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/#specification).
+1. **Create or reference an issue first** and make sure it is assigned before starting work.
+2. **Fork the project** to your own GitHub account if needed.
+3. **Create a branch** for your changes only after the issue is assigned and approved for work. Branch names should follow [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/#specification).
    - _Examples:_ `feat/add-login-system`, `fix/broken-header`, `docs/update-readme`
-3. **Review your changes** once you have finished coding.
-4. **Prepare your changes** by running the following quality checks:
+4. **Review your changes** once you have finished coding.
+5. **Prepare your changes** by running the following quality checks:
    - `uv run ruff check` (lint all the files)
    - `uv format` (format all the files)
    - `git add .` (This stages all changes, including new files)
-5. **Commit your changes** commit should follow [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/#specification).
-6. **Create a Pull Request** with a clear description of your changes.
+6. **Commit your changes** commit should follow [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/#specification).
+7. **Create a Pull Request** with a clear description of your changes and link the related issue.
 
 ## Issue Guidelines
 
@@ -36,25 +41,24 @@ Thank you for contributing to this project. Please follow below given guidelines
 
 Please use the labels below while contributing. This is compulsory.
 
-| Label | When to use it |
-| --- | --- |
-| `discussion` | For issues that are being used for discussion only. |
-| `documentation` | For improvements or additions to documentation. |
-| `duplicate` | For issues or pull requests that already exist. |
-| `good first issue` | For small tasks that are good for newcomers. |
-| `bug` | For broken behavior or something that is not working as expected. |
-| `feature` | For new features or requests. |
-| `fix` | For general fixes that are not limited to bugs, such as docs or feature-related corrections. |
-| `high priority` | For issues that should be handled first. |
-| `medium priority` | For issues that should be handled next. |
-| `low priority` | For issues that can be handled later. |
-| `issue:accepted` | For external issues that have been reviewed and accepted to move forward. |
-| `issue:under review` | For external issues that have been opened and are waiting for maintainer review. |
-| `issue:working` | For accepted issues that someone has started working on. |
-| `issue:ready for review` | For completed work that is waiting for maintainer review on the PR. |
+| Label                    | When to use it                                                                               |
+| ------------------------ | -------------------------------------------------------------------------------------------- |
+| `discussion`             | For issues that are being used for discussion only.                                          |
+| `documentation`          | For improvements or additions to documentation.                                              |
+| `duplicate`              | For issues or pull requests that already exist.                                              |
+| `good first issue`       | For small tasks that are good for newcomers.                                                 |
+| `bug`                    | For broken behavior or something that is not working as expected.                            |
+| `feature`                | For new features or requests.                                                                |
+| `fix`                    | For general fixes that are not limited to bugs, such as docs or feature-related corrections. |
+| `high priority`          | For issues that should be handled first.                                                     |
+| `medium priority`        | For issues that should be handled next.                                                      |
+| `low priority`           | For issues that can be handled later.                                                        |
+| `issue:accepted`         | For external issues that have been reviewed and accepted to move forward.                    |
+| `issue:under review`     | For external issues that have been opened and are waiting for maintainer review.             |
+| `issue:working`          | For accepted issues that someone has started working on.                                     |
+| `issue:ready for review` | For completed work that is waiting for maintainer review on the PR.                          |
 
 If an issue is opened without the right label or workflow state, it may be rejected until it is updated properly.
-
 
 ## Helpful Tools
 
