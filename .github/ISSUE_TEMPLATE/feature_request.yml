@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest a new feature or improvement
+title: "feat: "
+labels:
+  - issue:accepted
+  - feature
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A concise description of the feature request.
+      placeholder: What would you like to add or improve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed Fix
+      description: How you think this should be solved.
+      placeholder: Explain the feature design or implementation idea.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any extra context, examples, or screenshots.
+    validations:
+      required: false
