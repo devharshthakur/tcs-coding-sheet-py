@@ -9,6 +9,9 @@ venv/
 env/
 ENV/
 
+# Node artificats
+node_modules
+
 # Build / packaging artifacts
 build/
 dist/
