@@ -14,7 +14,15 @@ This is a [uv](https://docs.astral.sh/uv/) based project. There is no such thing
 git clone https://github.com/devharshthakur/tcs-coding-sheet-py.git
 ```
 
-2. Now you can run any file via uv:
+2. Run the bun install command to install nodejs dependencies
+
+```bash
+bun install 
+```
+
+> Note: We use bun only as a package manager. We still use nodejs as runtime
+
+3. Now you can run any file via uv:
 
 ```bash
 uv run <path_to_the_file>
