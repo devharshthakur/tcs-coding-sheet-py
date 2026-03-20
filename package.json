@@ -1,0 +1,19 @@
+{
+  "name": "tcs-coding-sheet-py",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "uv run ty check",
+    "format:py": "uv format --preview-features format",
+    "format:md": "uv run mdformat README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHECKLIST.md .github/pull_request_template.md && uv run yamlfix .github/ISSUE_TEMPLATE/*.yml",
+    "format": "bun run format:py && bun run format:md",
+    "precommit": "bun run lint && bun run format"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^6.0.0-beta"
+  }
+}
