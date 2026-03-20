@@ -60,25 +60,6 @@ Please use the labels below while contributing. This is compulsory.
 
 If an issue is opened without the right label or workflow state, it may be rejected until it is updated properly.
 
-## Helpful Tools
-
-### Automated Commit Script
-
-To simplify **Step 4** and **Step 5**, I have created a bash script located at `./scripts/commit.bash`. You can run this easily using the provided `just` target:
-
-```bash
-just c
-```
-
-**What this script does:**
-
-1. Runs `just format` for Markdown, YAML, and Python files.
-1. Stages all changes with `git add .`.
-1. Opens a temporary commit file in `vim`. Add your details, then save and quit (`:wq`).
-1. Asks for confirmation before running `git commit`.
-
-> **Note:** Please remove any placeholder text in the vim buffer so it doesn't end up in your final commit message.
-
-### PR Template
+## PR Template
 
 I have provided a [Pull Request template](./.github/pull_request_template.md). Please use it when opening your PR to help me understand your contribution better.

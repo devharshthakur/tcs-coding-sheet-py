@@ -7,11 +7,11 @@
     "format:py": "uv format --preview-features format",
     "format:md": "uv run mdformat README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHECKLIST.md .github/pull_request_template.md && uv run yamlfix .github/ISSUE_TEMPLATE/*.yml",
     "format": "bun run format:py && bun run format:md",
-    "precommit": "bun run lint && bun run format",
-    "commit": "scripts/commit"
+    "precommit": "bun run lint && bun run format"
   },
   "devDependencies": {
-    "@types/bun": "^1.3.11"
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2"
   },
   "peerDependencies": {
     "typescript": "^6.0.0-beta"
