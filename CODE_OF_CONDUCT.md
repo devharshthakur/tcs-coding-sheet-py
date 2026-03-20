@@ -114,7 +114,7 @@ community.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.
+This Code of Conduct is adapted from the \[Contributor Covenant\](https://www.
 contributor-covenant.org), version 2.1.
 
 Community impact guidelines were inspired by the [Mozilla code of conduct

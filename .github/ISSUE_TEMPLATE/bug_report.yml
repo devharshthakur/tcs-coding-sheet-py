@@ -1,9 +1,8 @@
+---
 name: Bug report
 description: Report a bug or unexpected behavior
-title: "fix: "
-labels:
-  - issue:accepted
-  - bug
+title: 'fix: '
+labels: [issue:accepted, bug]
 body:
   - type: textarea
     id: description
@@ -13,7 +12,6 @@ body:
       placeholder: What went wrong?
     validations:
       required: true
-
   - type: textarea
     id: proposed_fix
     attributes:
@@ -22,7 +20,6 @@ body:
       placeholder: Suggest a possible fix, if you have one.
     validations:
       required: false
-
   - type: textarea
     id: additional
     attributes:

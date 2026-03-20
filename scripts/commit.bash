@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-uv format
+just format
 git add .
 
 # Write the commit message in a temporary file so Vim can edit it safely.

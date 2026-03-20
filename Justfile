@@ -3,6 +3,8 @@ lint:
 alias l := lint
 
 format:
+    uv run mdformat README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHECKLIST.md .github/pull_request_template.md
+    uv run yamlfix .github/ISSUE_TEMPLATE/*.yml
     uv format --preview-features format
 alias fmt := format
 
