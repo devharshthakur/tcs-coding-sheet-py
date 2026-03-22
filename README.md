@@ -2,9 +2,9 @@
 
 This project is a Python rewrite of [TCS-NQT-CODING-SHEET](https://github.com/karthikreddy-7/TCS-NQT-CODING-SHEET.git) project.
 
-This project is in active development phase. I have prepared a checklist using the files from the [original project](https://github.com/karthikreddy-7/TCS-NQT-CODING-SHEET.git). You can find that in [`CHECKLIST.md`](CHECKLIST.md)
-
 This is a [uv](https://docs.astral.sh/uv/) based project. There is no such thing to run the project in our case as it is just a set of python files. `uv` is used here to format, lint all the files. For running scripts, this project is uses [just](https://github.com/casey/just) script runner.
+
+> [!NOTE] This project is in active development phase. I have prepared a checklist using the files from the [original project](https://github.com/karthikreddy-7/TCS-NQT-CODING-SHEET.git). You can find that in [`CHECKLIST.md`](CHECKLIST.md)
 
 # Installation
 

@@ -8,7 +8,7 @@ Thank you for contributing to this project. Please follow below given guidelines
 
 1. **Small Fixes:** For minor corrections like fixing typos, improving documentation, or adding comments, feel free to create a issue with a Pull Request attached directly without prior discussion.
 
-> Note: Before opening a new issue, please check if a similar one already exists.
+> [!NOTE] Before opening a new issue, please check if a similar one already exists.
 
 3. Creating an issue first is mandatory for new work. Please follow the [Issue Guidelines](#issue-guidelines) before starting any implementation.
 
@@ -60,6 +60,4 @@ Please use the labels below while contributing. This is compulsory.
 
 If an issue is opened without the right label or workflow state, it may be rejected until it is updated properly.
 
-## PR Template
-
-I have provided a [Pull Request template](./.github/pull_request_template.md). Please use it when opening your PR to help me understand your contribution better.
+> [!IMPORTANT] I have provided a [Pull Request template](./.github/pull_request_template.md). Please use it when opening your PR to help me understand your contribution better.
