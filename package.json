@@ -6,10 +6,10 @@
     "lint": "uv run ty check",
     "format:py": "uv format --preview-features format",
     "format:md": "uv run mdformat README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHECKLIST.md .github/pull_request_template.md && uv run yamlfix .github/ISSUE_TEMPLATE/*.yml",
-    "format": "bun run format:py && bun run format:md",
-    "precommit": "bun run lint && bun run format",
+    "format": "pnpm run format:py && pnpm run format:md",
+    "precommit": "pnpm run lint && pnpm run format",
     "build": "tsgo --outDir dist",
-    "postinstall": "bun run build"
+    "postinstall": "pnpm run build"
   },
   "devDependencies": {
     "@types/node": "^25.5.0"
