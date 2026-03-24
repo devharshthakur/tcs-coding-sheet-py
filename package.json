@@ -5,16 +5,16 @@
   "scripts": {
     "lint": "uv run ty check",
     "format:py": "uv format --preview-features format",
-    "format:md": "uv run mdformat README.md CONTRIBUTING.md CODE_OF_CONDUCT.md CHECKLIST.md .github/pull_request_template.md && uv run yamlfix .github/ISSUE_TEMPLATE/*.yml",
-    "format": "pnpm run format:py && pnpm run format:md",
-    "precommit": "pnpm run lint && pnpm run format",
-    "build": "tsgo --outDir dist",
-    "postinstall": "pnpm run build"
+    "format:docs": "prettier --write .",
+    "format": "pnpm run format:py && pnpm run format:docs",
+    "precommit": "pnpm run lint && pnpm run format"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.5.0",
+    "prettier": "^3.8.1"
   },
   "dependencies": {
-    "@typescript/native-preview": "^7.0.0-dev.20260321.1"
+    "@typescript/native-preview": "^7.0.0-dev.20260321.1",
+    "tsx": "^4.21.0"
   }
 }

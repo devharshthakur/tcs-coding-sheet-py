@@ -1,16 +1,14 @@
 [project]
 name = "tcs-coding-sheet-py"
-version = "0.1.0"
+version = "1.0.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
+
 dependencies = []
 
 [dependency-groups]
 dev = [
-    "mdformat>=1.0.0",
-    "mdformat-gfm>=1.0.0",
     "ruff>=0.15.6",
     "ty>=0.0.23",
-    "yamlfix>=1.19.1",
 ]
