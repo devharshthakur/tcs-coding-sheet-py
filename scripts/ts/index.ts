@@ -1,0 +1,1 @@
+console.log("This folder contains scripts");

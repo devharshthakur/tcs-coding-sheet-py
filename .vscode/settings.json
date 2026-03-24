@@ -1,7 +1,7 @@
 {
-    "ruff.format.backend": "uv",
-    "ruff.enable": true,
-    "ruff.lint.enable": true,
-    "ruff.fixAll": true,
-    "ruff.importStrategy": "fromEnvironment"
+  "ruff.format.backend": "uv",
+  "ruff.enable": true,
+  "ruff.lint.enable": true,
+  "ruff.fixAll": true,
+  "ruff.importStrategy": "fromEnvironment"
 }
