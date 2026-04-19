@@ -7,10 +7,13 @@
     "format:py": "uv format --preview-features format",
     "format:docs": "prettier --write .",
     "format": "pnpm run format:py && pnpm run format:docs",
-    "precommit": "pnpm run lint && pnpm run format"
+    "precommit": "pnpm run lint && pnpm run format",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "prettier": "^3.8.3"
   },
   "dependencies": {
