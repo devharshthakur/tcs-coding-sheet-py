@@ -10,11 +10,11 @@
     "precommit": "pnpm run lint && pnpm run format"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0",
-    "prettier": "^3.8.1"
+    "@types/node": "^25.6.0",
+    "prettier": "^3.8.3"
   },
   "dependencies": {
-    "@typescript/native-preview": "^7.0.0-dev.20260321.1",
+    "@typescript/native-preview": "7.0.0-dev.20260415.1",
     "tsx": "^4.21.0"
   }
 }
