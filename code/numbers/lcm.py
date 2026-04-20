@@ -1,3 +1,6 @@
+"""Find GCD of two numbers"""
+
+
 def gcd(a: int, b: int):
     """Find GCD"""
     while b != 0:

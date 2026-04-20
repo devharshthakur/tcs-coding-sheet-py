@@ -1,3 +1,6 @@
+"""Check if a array is a subset of another array"""
+
+
 # Binary search algo
 def binary_search(elem: int, arr: list[int]) -> bool:
     start = 0

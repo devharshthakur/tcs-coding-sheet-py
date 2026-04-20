@@ -1,4 +1,4 @@
-# Find smallest number in array
+"""Find smallest number in array"""
 
 
 def solve():
